@@ -1,0 +1,40 @@
+*{
+    text-align:center;
+}
+.game{
+    margin: auto;
+    margin-top: 100px;
+}
+span{
+    font-weight: bold;
+    font-size: 22px;
+    color: blueviolet;
+}
+.content .result{
+    color:black;
+}
+.player{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    font-size: 23px;
+    margin-top: 60px;
+}
+.btn1 , .btn2,.btn3{
+    margin-left: 20px;
+    height:30px;
+    width:80px;
+    border-radius: 2px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.btn1:hover{
+    background-color: rgb(37, 203, 37);
+}
+.btn2:hover{
+    background-color: blue;
+}
+.btn3:hover{
+    background-color: orange;
+}
